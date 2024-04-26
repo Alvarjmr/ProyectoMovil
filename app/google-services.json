@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "818337806640",
+    "project_id": "nominavalen",
+    "storage_bucket": "nominavalen.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:818337806640:android:5f5de55f8b62560fc4f0f5",
+        "android_client_info": {
+          "package_name": "com.example.nominavalen"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBE30pv33ff_ZqOvu5QDc2Iq-LXSeZ0ki4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/nav_inicio">
+
+    <fragment
+        android:id="@+id/nav_inicio"
+        android:name="com.example.nominavalen.ui.inicio.InicioFragment"
+        android:label="@string/menu_inicio"
+        tools:layout="@layout/fragment_inicio" />
+    <fragment
+        android:id="@+id/nav_liquidacion"
+        android:name="com.example.nominavalen.ui.liquidacion.LiquidacionFragment"
+        android:label="@string/menu_liquidacion"
+        tools:layout="@layout/fragment_liquidacion" />
+    <fragment
+        android:id="@+id/nav_reportes"
+        android:name="com.example.nominavalen.ui.reporte.ReportesFragment"
+        android:label="@string/menu_reporte"
+        tools:layout="@layout/fragment_reportes" />
+
+    <fragment
+        android:id="@+id/nav_salir"
+        android:name="com.example.nominavalen.ui.salir.SalirFragment"
+        android:label="@string/menu_salir"
+        tools:layout="@layout/fragment_salir" />
+</navigation>

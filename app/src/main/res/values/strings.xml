@@ -1,0 +1,31 @@
+<resources>
+    <string name="app_name">NominaValen</string>
+
+    <string name="registrate">Resgistrate</string>
+    <string name="nombre">Introduzca su nombre</string>
+    <string name="apellidos">Introduzca sus apellidos</string>
+    <string name="correo">Introduzca el correo electronico</string>
+    <string name="contraseña">Introduzca su contraseña</string>
+    <string name="contancto">Introduzca su contacto</string>
+    <string name="registar">Registrar</string>
+
+    <string name="registrarse">Resgistrarse</string>
+    <string name="email">Corre electronico</string>
+    <string name="password">Su contraseña</string>
+    <string name="restablecer">Restablecer contraseña</string>
+    <string name="terninoscondiciones">Terminos y condiciones</string>
+    <string name="hechovalentino">Hecho por liquidacion valentino</string>
+    <string name="title_activity_panel">Panel</string>
+    <string name="nav_header_desc">Navigation header</string>
+
+    <string name="nav_header_title">Liquidacion</string>
+    <string name="nav_header_subtitle">nominavalentino@gmail.com</string>
+    <string name="action_configuracion">Configuracion</string>
+
+    <string name="menu_inicio">Inicio</string>
+    <string name="menu_liquidacion">Liquidacion</string>
+    <string name="menu_reporte">Reportes</string>
+    <string name="menu_salir">Salir</string>
+
+
+</resources>
