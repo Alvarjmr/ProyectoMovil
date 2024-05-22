@@ -8,14 +8,13 @@
             android:id="@+id/nav_inicio"
             android:icon="@drawable/paginainicio"
             android:title="@string/menu_inicio" />
+
         <item
-            android:id="@+id/nav_liquidacion"
-            android:icon="@drawable/liquidez"
-            android:title="@string/menu_liquidacion" />
-        <item
-            android:id="@+id/nav_reportes"
-            android:icon="@drawable/reportes"
-            android:title="@string/menu_reporte"/>
+            android:id="@+id/nav_tcompleto"
+            android:icon="@drawable/saliraplicacion"
+            android:title="@string/menu_tcompleto" />
+
+
 
         <item
             android:id="@+id/nav_salir"

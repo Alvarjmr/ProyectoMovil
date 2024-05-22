@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ui.tcompleto.TcompletoFragment">
+
+    <TextView
+        android:id="@+id/textTcompleto"
+        android:layout_width="5dp"
+        android:layout_height="5dp"
+        android:text="Hello" />
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:hint="@string/fechaini"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content">
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/fechaini"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp"
+
+            android:inputType="date" />
+            />
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <ImageButton
+        android:id="@+id/btnfechaini"
+        android:layout_width="51dp"
+        android:layout_height="69dp"
+        android:layout_weight="1"
+        android:onClick="calendarioini"
+        android:src="@drawable/fecha" />
+
+
+</LinearLayout>

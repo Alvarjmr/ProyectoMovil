@@ -5,19 +5,14 @@ import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
-import android.widget.EditText;
 import android.widget.Toast;
 
 import androidx.activity.EdgeToEdge;
 import androidx.annotation.NonNull;
 import androidx.appcompat.app.AppCompatActivity;
-import androidx.core.graphics.Insets;
-import androidx.core.view.ViewCompat;
-import androidx.core.view.WindowInsetsCompat;
 
 import com.google.android.gms.tasks.OnCompleteListener;
 import com.google.android.gms.tasks.Task;
-import com.google.android.material.dialog.MaterialAlertDialogBuilder;
 import com.google.android.material.textfield.TextInputEditText;
 import com.google.firebase.auth.AuthResult;
 import com.google.firebase.auth.FirebaseAuth;
@@ -26,7 +21,6 @@ import com.google.firebase.database.FirebaseDatabase;//imprtar
 
 import java.util.HashMap;
 import java.util.Map;
-import java.util.Objects;
 
 
 public class Registrar extends AppCompatActivity {
@@ -61,7 +55,7 @@ public class Registrar extends AppCompatActivity {
         refe = FirebaseDatabase.getInstance().getReference();
 
         rnombre = findViewById(R.id.rnombre);
-        rapellidos = findViewById(R.id.rapellidos);
+        rapellidos = findViewById(R.id.fechaini);
         rcorreo = findViewById(R.id.rcorreo);
         rcontrasena = findViewById(R.id.rcontrasena);
         rcontancto = findViewById(R.id.rcontancto);
