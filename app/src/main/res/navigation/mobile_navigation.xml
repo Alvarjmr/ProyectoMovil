@@ -16,6 +16,12 @@
         android:label="@string/menu_tcompleto"
         tools:layout="@layout/fragment_tcompleto" />
 
+    <fragment
+        android:id="@+id/nav_xdias"
+        android:name="com.example.nominavalen.ui.xdias.XdiasFragment"
+        android:label="@string/menu_xdias"
+        tools:layout="@layout/fragment_xdias" />
+
 
     <fragment
         android:id="@+id/nav_salir"

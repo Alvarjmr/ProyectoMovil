@@ -24,7 +24,16 @@
 
     <string name="menu_inicio">Inicio</string>
     <string name="menu_tcompleto">Tiempo Completo</string>
+    <string name="menu_xdias">Tiempo Xdias</string>
     <string name="fechaini">Introduzca Fecha Inicio</string>
+    <string name="fechafin">Introduzca Fecha Fin</string>
+    <string name="salariomensual">INGRESE SU SALARIO MENSUAL</string>
+    <string name="salariodiario">INGRESE SU SALARIO DIARIO</string>
+    <string name="porsemana">DIAS LABORADOS SEMANA</string>
+    <string name="calcularcompleto">Calcular</string>
+
+    <string name="periodofechacomple">Periodo</string>
+
 
     <string name="menu_reporte">Reportes</string>
     <string name="menu_salir">Salir</string>

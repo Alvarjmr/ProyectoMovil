@@ -15,6 +15,9 @@
         android:theme="@style/Theme.NominaValen"
         tools:targetApi="31">
         <activity
+            android:name=".Calculocompleto"
+            android:exported="false" />
+        <activity
             android:name=".Panel"
             android:exported="false"
             android:label="@string/title_activity_panel"

@@ -5,12 +5,10 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="@drawable/vector_1"
-    tools:context=".ui.tcompleto.TcompletoFragment">
-
+    tools:context=".ui.xdias.XdiasFragment">
 
     <EditText
-
-        android:id="@+id/fechainiciocomple"
+        android:id="@+id/fechainicioxdias"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_gravity="center"
@@ -20,14 +18,14 @@
         android:inputType="date"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.154"
+        app:layout_constraintHorizontal_bias="0.169"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.092"
+        app:layout_constraintVertical_bias="0.159"
         tools:ignore="MissingConstraints,SpeakableTextPresentCheck,TouchTargetSizeCheck" />
 
     <ImageView
-        android:id="@+id/btnfechainicomple"
+        android:id="@+id/btnfechainioxdias"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:src="@drawable/fecha"
@@ -36,15 +34,15 @@
         app:layout_constraintHorizontal_bias="0.798"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.082"
+        app:layout_constraintVertical_bias="0.134"
         tools:ignore="MissingConstraints,Suspicious0dp" />
 
     <EditText
-        android:id="@+id/fechafincomple"
+        android:id="@+id/fechafinxdias"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_gravity="center"
-        android:layout_marginBottom="440dp"
+        android:layout_marginBottom="432dp"
         android:ems="10"
         android:gravity="center"
         android:hint="@string/fechafin"
@@ -56,7 +54,7 @@
         tools:ignore="MissingConstraints,TouchTargetSizeCheck" />
 
     <ImageView
-        android:id="@+id/btnfechafincomple"
+        android:id="@+id/btnfechafinxdias"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:src="@drawable/fecha"
@@ -65,17 +63,17 @@
         app:layout_constraintHorizontal_bias="0.798"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.273"
+        app:layout_constraintVertical_bias="0.292"
         tools:ignore="MissingConstraints,Suspicious0dp" />
 
     <EditText
-        android:id="@+id/salariomensual"
+        android:id="@+id/salarixdias"
         android:layout_width="310dp"
         android:layout_height="wrap_content"
         android:layout_gravity="center"
         android:ems="10"
         android:gravity="center"
-        android:hint="@string/salariomensual"
+        android:hint="@string/salariodiario"
         android:inputType="number"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
@@ -86,7 +84,24 @@
         tools:ignore="TouchTargetSizeCheck" />
 
     <EditText
-        android:id="@+id/auxtracomple"
+        android:id="@+id/semana"
+        android:layout_width="310dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:ems="10"
+        android:gravity="center"
+        android:hint="@string/porsemana"
+        android:inputType="number"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.336"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.592"
+        tools:ignore="TouchTargetSizeCheck" />
+
+    <EditText
+        android:id="@+id/auxtraxdias"
         android:layout_width="246dp"
         android:layout_height="wrap_content"
         android:ems="10"
@@ -94,33 +109,35 @@
         android:text="AUXILIO DE TRANSPORTE"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.096"
+        app:layout_constraintHorizontal_bias="0.206"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.638"
-        tools:ignore="TouchTargetSizeCheck" />
+        app:layout_constraintVertical_bias="0.718"
+        tools:ignore="HardcodedText,TouchTargetSizeCheck" />
 
     <RadioGroup
-        android:layout_width="119dp"
-        android:layout_height="123dp"
+        android:layout_width="81dp"
+        android:layout_height="91dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.945"
+        app:layout_constraintHorizontal_bias="0.861"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.677">
+        app:layout_constraintVertical_bias="0.743">
 
         <RadioButton
             android:id="@+id/Si"
             android:layout_width="64dp"
             android:layout_height="wrap_content"
-            android:text="Si" />
+            android:text="Si"
+            tools:ignore="HardcodedText" />
 
         <RadioButton
             android:id="@+id/No"
             android:layout_width="64dp"
             android:layout_height="wrap_content"
-            android:text="No" />
+            android:text="No"
+            tools:ignore="HardcodedText" />
     </RadioGroup>
 
     <Button

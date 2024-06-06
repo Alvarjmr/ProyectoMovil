@@ -1,16 +1,15 @@
-package com.example.nominavalen.ui.tcompleto;
+package com.example.nominavalen.ui.xdias;
 
 import androidx.lifecycle.LiveData;
 import androidx.lifecycle.MutableLiveData;
 import androidx.lifecycle.ViewModel;
 
-public class TcompletoViewModel extends ViewModel {
+public class XdiasViewModel extends ViewModel {
 
     private final MutableLiveData<String> mText;
 
-    public TcompletoViewModel() {
+    public XdiasViewModel() {
         mText = new MutableLiveData<>();
-        //mText.setValue("Tiempo Completo");
     }
 
     public LiveData<String> getText() {

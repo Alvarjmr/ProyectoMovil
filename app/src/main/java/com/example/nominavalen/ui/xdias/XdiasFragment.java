@@ -1,57 +1,53 @@
-package com.example.nominavalen.ui.tcompleto;
+package com.example.nominavalen.ui.xdias;
 
 import android.annotation.SuppressLint;
 import android.app.DatePickerDialog;
-import android.content.Context;
 import android.os.Bundle;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
-import android.widget.Button;
 import android.widget.DatePicker;
 import android.widget.EditText;
-import android.widget.ImageButton;
 import android.widget.ImageView;
 import android.widget.TextView;
-import android.widget.Toast;
 
 import androidx.annotation.NonNull;
 import androidx.fragment.app.Fragment;
 import androidx.lifecycle.ViewModelProvider;
 
 import com.example.nominavalen.R;
-import com.example.nominavalen.databinding.FragmentTcompletoBinding;
-import com.example.nominavalen.ui.tcompleto.TcompletoViewModel;
-import com.google.android.material.textfield.TextInputEditText;
+import com.example.nominavalen.databinding.FragmentXdiasBinding;
+import com.example.nominavalen.ui.xdias.XdiasViewModel;
 
 import java.util.Calendar;
 
-public class TcompletoFragment extends Fragment {
-    EditText fechainiciocomple,fechafincomple;
+public class XdiasFragment extends Fragment {
 
-    @SuppressLint({"WrongViewCast", "MissingInflatedId"})
+    EditText fechainicioxdias,fechafinxdias;
+
+    @SuppressLint({"MissingInflatedId", "WrongViewCast", "CutPasteId"})
     public View onCreateView(@NonNull LayoutInflater inflater, ViewGroup container,
                              Bundle savedInstanceState) {
-        View view = inflater.inflate(R.layout.fragment_tcompleto, container, false);
-        TcompletoViewModel tcompletoViewModel = new ViewModelProvider(this).get(TcompletoViewModel.class);
-        final TextView textView = view.findViewById(R.id.salariomensual);
-        tcompletoViewModel.getText().observe(getViewLifecycleOwner(),textView::setText);
+        View view = inflater.inflate(R.layout.fragment_xdias, container, false);
+        XdiasViewModel xdiasViewModel = new ViewModelProvider(this).get(XdiasViewModel.class);
+        final TextView textView = view.findViewById(R.id.salarixdias);
+        xdiasViewModel.getText().observe(getViewLifecycleOwner(), textView::setText);
 
-        fechainiciocomple = view.findViewById(R.id.fechainiciocomple);
-        fechafincomple = view.findViewById(R.id.fechafincomple);
+        fechainicioxdias = view.findViewById(R.id.fechainicioxdias);
+        fechafinxdias = view.findViewById(R.id.fechafinxdias);
 
-        ImageView btnfechainicomple = view.findViewById(R.id.btnfechainicomple);
-        ImageView btnfechafincomple =view.findViewById(R.id.btnfechafincomple);
+        ImageView btnfechainioxdias = view.findViewById(R.id.btnfechainioxdias);
+        ImageView btnfechafinxdias =view.findViewById(R.id.btnfechafinxdias);
 
         //fecha inicio
-        btnfechainicomple.setOnClickListener(new View.OnClickListener() {
+        btnfechainioxdias.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
                 DatePickerDialog d = new DatePickerDialog(requireContext(), new DatePickerDialog.OnDateSetListener() {
                     @SuppressLint("SetTextI18n")
                     @Override
                     public void onDateSet(DatePicker view, int year, int month, int dayOfMonth) {
-                        fechainiciocomple.setText(year + "/" + month + "/" + dayOfMonth);
+                        fechainicioxdias.setText(year + "/" + month + "/" + dayOfMonth);
                     }
                 }, 2024, Calendar.JANUARY, 1);
                 d.show();
@@ -60,21 +56,20 @@ public class TcompletoFragment extends Fragment {
         //fin fecha inicio
 
         //fecha fin
-        btnfechafincomple.setOnClickListener(new View.OnClickListener() {
+        btnfechafinxdias.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
                 DatePickerDialog d = new DatePickerDialog(requireContext(), new DatePickerDialog.OnDateSetListener() {
                     @SuppressLint("SetTextI18n")
                     @Override
                     public void onDateSet(DatePicker view, int year, int month, int dayOfMonth) {
-                        fechafincomple.setText(year + "/" + month + "/" + dayOfMonth);
+                        fechafinxdias.setText(year + "/" + month + "/" + dayOfMonth);
                     }
                 }, 2024, Calendar.JANUARY, 1);
                 d.show();
             }
         });
         //fin fecha fin
-
         return view;
     }
 
@@ -82,7 +77,5 @@ public class TcompletoFragment extends Fragment {
     public void onDestroyView() {
         super.onDestroyView();
 
-
     }
-
 }

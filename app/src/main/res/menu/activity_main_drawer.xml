@@ -11,14 +11,18 @@
 
         <item
             android:id="@+id/nav_tcompleto"
-            android:icon="@drawable/saliraplicacion"
+            android:icon="@drawable/tcompleto"
             android:title="@string/menu_tcompleto" />
+        <item
+            android:id="@+id/nav_xdias"
+            android:icon="@drawable/xdias"
+            android:title="@string/menu_xdias" />
 
 
 
         <item
             android:id="@+id/nav_salir"
-            android:icon="@drawable/saliraplicacion"
+            android:icon="@drawable/cerrarsesion"
             android:title="@string/menu_salir" />
     </group>
 </menu>
