@@ -28,4 +28,9 @@
         android:name="com.example.nominavalen.ui.salir.SalirFragment"
         android:label="@string/menu_salir"
         tools:layout="@layout/fragment_salir" />
+    <fragment
+        android:id="@+id/nav_calcompletFragment"
+        android:name="com.example.nominavalen.ui.calcomple.CalcompletFragment"
+        android:label="fragment_calcomplet"
+        tools:layout="@layout/fragment_calcomplet" />
 </navigation>

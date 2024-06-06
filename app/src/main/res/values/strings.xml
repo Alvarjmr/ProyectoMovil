@@ -32,7 +32,7 @@
     <string name="porsemana">DIAS LABORADOS SEMANA</string>
     <string name="calcularcompleto">Calcular</string>
 
-    <string name="periodofechacomple">Periodo</string>
+    <string name="periodofechacomple">Periodo (DD-MM-AAAA)</string>
 
 
     <string name="menu_reporte">Reportes</string>

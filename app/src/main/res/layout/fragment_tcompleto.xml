@@ -124,7 +124,7 @@
     </RadioGroup>
 
     <Button
-        android:id="@+id/btn_calcular"
+        android:id="@+id/btn_calcularcomplet"
         android:layout_width="312dp"
         android:layout_height="77dp"
         android:drawableEnd="@android:drawable/ic_menu_send"
