@@ -30,6 +30,7 @@
     <string name="salariomensual">INGRESE SU SALARIO MENSUAL</string>
     <string name="salariodiario">INGRESE SU SALARIO DIARIO</string>
     <string name="porsemana">DIAS LABORADOS SEMANA</string>
+    <string name="trasnporte">INGRESE TRANSPORTE</string>
     <string name="calcularcompleto">Calcular</string>
 
     <string name="periodofechacomple">Periodo (DD-MM-AAAA)</string>

@@ -4,15 +4,24 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:padding="15dp"
-    tools:context=".ui.calcomple.CalcompletFragment">
+    android:background="@drawable/vector_1"
+    tools:context=".ui.calcomple.CalcompletFragment"
+    tools:ignore="Orientation">
 
 
     <TextView
-        android:id="@+id/periodo"
         android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:textStyle="bold"
-        android:textSize="18sp"/>
+        android:layout_height="wrap_content"
+        android:text="Datos liquidacion"
+        android:layout_marginBottom="10dp"
+        android:textSize="20sp" />
+
+    <TextView
+        android:id="@+id/txt_salario"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="18sp"
+         />
 
 
 </LinearLayout>

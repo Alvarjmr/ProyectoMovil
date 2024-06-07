@@ -69,7 +69,7 @@
         tools:ignore="MissingConstraints,Suspicious0dp" />
 
     <EditText
-        android:id="@+id/salariomensual"
+        android:id="@+id/edi_salariomensual"
         android:layout_width="310dp"
         android:layout_height="wrap_content"
         android:layout_gravity="center"
@@ -85,43 +85,23 @@
         app:layout_constraintVertical_bias="0.467"
         tools:ignore="TouchTargetSizeCheck" />
 
+
     <EditText
-        android:id="@+id/auxtracomple"
-        android:layout_width="246dp"
+        android:id="@+id/edi_transporte"
+        android:layout_width="310dp"
         android:layout_height="wrap_content"
+        android:layout_gravity="center"
         android:ems="10"
+        android:gravity="center"
+        android:hint="@string/trasnporte"
         android:inputType="text"
-        android:text="AUXILIO DE TRANSPORTE"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.096"
+        app:layout_constraintHorizontal_bias="0.356"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.638"
+        app:layout_constraintVertical_bias="0.614"
         tools:ignore="TouchTargetSizeCheck" />
-
-    <RadioGroup
-        android:layout_width="119dp"
-        android:layout_height="123dp"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.945"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.677">
-
-        <RadioButton
-            android:id="@+id/Si"
-            android:layout_width="64dp"
-            android:layout_height="wrap_content"
-            android:text="Si" />
-
-        <RadioButton
-            android:id="@+id/No"
-            android:layout_width="64dp"
-            android:layout_height="wrap_content"
-            android:text="No" />
-    </RadioGroup>
 
     <Button
         android:id="@+id/btn_calcularcomplet"
